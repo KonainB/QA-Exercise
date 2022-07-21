@@ -1,0 +1,13 @@
+20220719 12:00:31 INFO  [main] org.TestLogger TestLogger.java12 - Adding INFO logs
+20220719 12:00:31 FATAL [main] org.TestLogger TestLogger.java13 - The program seems to have exploded.
+20220719 12:00:31 WARN  [main] org.TestLogger TestLogger.java14 - This is a warning
+20220719 12:00:31 DEBUG [main] org.TestLogger TestLogger.java21 - [Ljava.lang.StackTraceElement;@74294adb
+20220719 12:00:31 ERROR [main] org.TestLogger TestLogger.java22 - y.txt (The system cannot find the file specified)
+20220719 12:00:31 ERROR [main] org.TestLogger TestLogger.java23 - Catching
+java.io.FileNotFoundException: y.txt (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method) ~[?:1.8.0_202]
+	at java.io.FileInputStream.open(FileInputStream.java:195) ~[?:1.8.0_202]
+	at java.io.FileInputStream.<init>(FileInputStream.java:138) ~[?:1.8.0_202]
+	at java.io.FileInputStream.<init>(FileInputStream.java:93) ~[?:1.8.0_202]
+	at java.io.FileReader.<init>(FileReader.java:58) ~[?:1.8.0_202]
+	at org.TestLogger.main(TestLogger.java:18) [classes/:?]

@@ -1,0 +1,21 @@
+package org;
+
+public class Sample {
+	String name;
+	
+	public Sample setName(String name)
+	{
+		this.name=name;
+		return this;
+	}
+	public Sample showName()
+	{
+		System.out.println(name);
+		return this;
+	}
+	public String greeting()
+	{
+		return "Hello" +name;
+	}
+
+}

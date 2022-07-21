@@ -1,0 +1,11 @@
+package org;
+
+public class Test {
+	public static void main(String[] args) {
+		Employee emp=new Employee();
+		emp.doSomething();
+		emp.work();
+		emp.getWorkHours();
+	}
+
+}

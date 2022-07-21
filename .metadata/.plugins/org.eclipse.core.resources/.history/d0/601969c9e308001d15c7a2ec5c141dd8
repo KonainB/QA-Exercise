@@ -1,0 +1,15 @@
+package employee;
+
+import java.util.Scanner;
+
+public class Test {
+	
+    public static void main(String[] args) {
+
+    	Employee e1=new Employee();
+        int tempSalary=e1.calculateSalary(20000);
+        System.out.println(tempSalary);
+        
+    }
+} 
+        

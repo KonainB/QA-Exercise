@@ -1,0 +1,11 @@
+package org;
+
+public class Practice {
+	public static void printMessage() {
+		String message = "How are you";
+		System.out.println(message);
+	}
+	public static void main(String[] args) {
+		printMessage();
+	}
+}

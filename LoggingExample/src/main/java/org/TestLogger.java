@@ -1,0 +1,27 @@
+package org;
+
+import java.io.FileReader;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+public class TestLogger {
+
+	public static void main(String[] args) {
+		Logger LOGGER = LogManager.getLogger();
+		LOGGER.info("Adding INFO logs");
+		LOGGER.fatal("The program seems to have exploded.");
+		LOGGER.warn("This is a warning");
+		try
+		{
+			int z=10/2;
+			FileReader fr=new FileReader("y.txt");
+		}
+		catch (Exception e) {
+		    LOGGER.debug(e.getStackTrace());
+		    LOGGER.error(e.getMessage());
+		    LOGGER.catching(e);
+		}
+	}
+
+}

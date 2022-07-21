@@ -1,0 +1,11 @@
+Person [name=Konain, age=20, jobTitle=Software Engineer]
+Person [name=Ayeni, age=20, jobTitle=System Administrator]
+Person [name=Upasana, age=21, jobTitle=Data Analyst]
+Person [name=Marwa, age=22, jobTitle=Web Developer]
+Person [name=Sean, age=23, jobTitle=IT Technician]
+Person p6=new Person("Thayaanithi",23,"IT Technician");
+Person p7=new Person("Feroze",24,"Software Engineer");
+Person p8=new Person("Gifty",24,"Systems Analyst");
+Person p9=new Person("Imran",24,"Devops Engineer");
+Person p10=new Person("Vytautas",25,"IT Project Manager");
+Person p11=new Person("Ashuit",26,"Devops Engineer");

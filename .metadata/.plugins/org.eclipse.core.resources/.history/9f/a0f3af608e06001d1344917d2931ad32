@@ -1,0 +1,19 @@
+package arraylist_org;
+
+import java.util.ArrayList;
+
+public class TestArrayList {
+
+	public static void main(String[] args) {
+		ArrayList myList=new ArrayList();
+		myList.add("Upasana");//String
+		myList.add(1234);//Integer
+		myList.add(true);//Boolean
+		myList.add(30.56);//Double
+		
+		System.out.println(myList);
+		
+
+	}
+
+}

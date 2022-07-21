@@ -1,0 +1,17 @@
+package snippet;
+
+public class Snippet {
+	public Employee(String firstName, String lastName, int age, String address, String phoneNo, String email,
+				int basicSalary, double bonus) {
+			super();
+			this.firstName = firstName;
+			this.lastName = lastName;
+			this.age = age;
+			this.address = address;
+			this.phoneNo = phoneNo;
+			this.email = email;
+			this.basicSalary = basicSalary;
+			this.bonus = bonus;
+		}
+}
+

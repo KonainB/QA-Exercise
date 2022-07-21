@@ -1,0 +1,27 @@
+package com;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.Circle;
+
+public class Test {
+	public static void main(String[] args) {
+		List<Bed> bedList=new ArrayList();
+		Bed b1=new Bed();
+		Bed b2=new Bed();
+		bedList.add(b1);
+		bedList.add(b2);
+		FurnitureTest obj=new FurnitureTest();
+		obj.buyFurniture(bedList);
+		
+		List<Table> tableList=new ArrayList();
+		Table t1=new Table();
+		Table t2=new Table();
+		tableList.add(t1);
+		tableList.add(t2);
+		obj.buyFurniture(tableList);
+	}
+}
+		
+

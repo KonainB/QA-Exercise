@@ -1,0 +1,43 @@
+package employee;
+
+import java.util.Scanner;
+
+public class Test {
+	
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String firstName;
+    	String lastName;
+    	int age;
+    	String address;
+    	int phoneNo;
+    	String email;
+    	double basicSalary;
+    	double bonus;
+        
+        System.out.println("Enter basic salary:");
+        basicSalary = sc.nextDouble();
+        System.out.println("Enter bonus:");
+        bonus=sc.nextDouble();
+
+        double finalSalary = (((basicSalary*10)/100)+bonus);
+
+        System.out.println("The final salary is:" + finalSalary);
+        
+        System.out.println("Enter your first name");
+        firstName = sc.next();
+        System.out.println("Enter your last name");
+        lastName = sc.next();
+        System.out.println("Hello "+firstName+" "+lastName);	
+        
+        System.out.println("Enter your phone number");
+        phoneNo=sc.nextInt();
+        if (phoneNo !=10)
+        {
+        			System.out.println("There is an error please try again");
+        }else
+        	System.out.println(phoneNo);
+
+    }
+
+}

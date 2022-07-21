@@ -1,0 +1,8 @@
+package org;
+
+public class Practice {
+	 public String withReturn() {
+	        System.out.println("Value returned");
+	        return "Hello World";
+	    }
+}

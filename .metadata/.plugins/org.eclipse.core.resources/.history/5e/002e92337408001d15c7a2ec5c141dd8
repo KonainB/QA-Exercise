@@ -1,0 +1,40 @@
+package employee;
+
+public class Employee {
+	String firstName;
+	String lastName;
+	int age;
+	String address;
+	int phoneNo;
+	String email;
+	double basicSalary;
+	double bonus;
+	
+	public Employee(String firstName, String lastName, int age, String address, int phoneNo, String email,
+			double basicSalary, double bonus) {
+		super();
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.age = age;
+		this.address = address;
+		this.phoneNo = phoneNo;
+		this.email = email;
+		this.basicSalary = basicSalary;
+		this.bonus = bonus;
+	}
+		
+		public static void main(String[] args) {
+	    	Employee e1=new Employee();
+			e1.firstName=1001;
+			e1.lastName="David";
+			e1.age="UK";
+			e1.address="d@gmail.com";
+			e1.phoneNo();
+			e1.email();
+			e1.basicSalary();
+			e1.bonus();
+	
+	}
+	
+
+}

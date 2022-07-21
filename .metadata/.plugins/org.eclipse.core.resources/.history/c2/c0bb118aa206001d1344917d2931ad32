@@ -1,0 +1,20 @@
+package map_org;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class TestMap {
+
+	public static void main(String[] args) {
+		Map<Integer,String> autoMap=new HashMap();
+		autoMap.put(101, "Car");
+		autoMap.put(102, "Bike");
+		autoMap.put(103, "Truck");
+		autoMap.put(104, "Bus");
+		autoMap.put(105, "Scooter");
+		autoMap.put(106, "SUV");
+
+		System.out.println(autoMap);
+	}
+
+}

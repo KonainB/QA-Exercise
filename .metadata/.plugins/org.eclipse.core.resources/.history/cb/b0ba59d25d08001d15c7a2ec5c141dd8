@@ -1,0 +1,51 @@
+package person;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+import java.util.stream.Collectors;
+
+public class Test {
+
+	public static void main(String[] args) {
+		Person p1=new Person("Konain",20,"Software Engineer");
+		Person p2=new Person("Ayeni",20,"System Administrator");
+		Person p3=new Person("Upasana",21,"Data Analyst");
+		Person p4=new Person("Marwa",22,"Web Developer");
+		Person p5=new Person("Sean",23,"IT Technician");
+		Person p6=new Person("Thayaanithi",23,"IT Technician");
+		Person p7=new Person("Feroze",24,"Software Engineer");
+		Person p8=new Person("Gifty",24,"Systems Analyst");
+		Person p9=new Person("Imran",24,"Devops Engineer");
+		Person p10=new Person("Vytautas",25,"IT Project Manager");
+		Person p11=new Person("Ashuit",26,"Devops Engineer");
+
+		ArrayList<Person> persList=new ArrayList();
+		persList.add(p1);
+		persList.add(p2);
+		persList.add(p3);
+		persList.add(p4);
+		persList.add(p5);
+		persList.add(p6);
+		persList.add(p7);
+		persList.add(p8);
+		persList.add(p9);
+		persList.add(p10);
+		persList.add(p11);
+
+		System.out.println(persList);
+		
+		List<Person> pers=persList.stream()
+				.filter(p->p.name=="Konain")
+				.collect(Collectors.toList());
+		System.out.println(pers);
+		
+		List<String> pers1=persList.stream()
+				.filter(p->p.age>23)
+				.map(p->p.name)
+				.collect(Collectors.toList());
+		System.out.println(pers1);
+		
+	}
+
+}

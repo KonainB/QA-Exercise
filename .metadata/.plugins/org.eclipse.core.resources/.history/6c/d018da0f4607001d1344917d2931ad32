@@ -1,0 +1,23 @@
+package org;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+public class TestLogger {
+
+	public static void main(String[] args) {
+		Logger LOGGER = LogManager.getLogger();
+		LOGGER.info("Adding INFO logs");
+		LOGGER.fatal("The program seems to have exploded.");
+		try
+		{
+			int z=10/0;
+		}
+		catch (Exception e) {
+		    LOGGER.debug(e.getStackTrace());
+		    LOGGER.error(e.getMessage());
+		    LOGGER.catching(e);
+		}
+	}
+
+}

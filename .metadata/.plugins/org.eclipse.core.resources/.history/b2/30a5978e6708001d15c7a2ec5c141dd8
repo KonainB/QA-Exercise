@@ -1,0 +1,37 @@
+package person;
+
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.ArrayList;
+
+public class FileList {
+	
+	public static void main(String[] args) {
+		Person p1=new Person("Konain",20,"Software Engineer");
+		Person p2=new Person("Ayeni",20,"System Administrator");
+		Person p3=new Person("Upasana",21,"Data Analyst");
+		Person p4=new Person("Marwa",22,"Web Developer");
+		Person p5=new Person("Sean",23,"IT Technician");
+		
+		ArrayList<PString> persList=new ArrayList();
+		persList.add(p1);
+		persList.add(p2);
+		persList.add(p3);
+		persList.add(p4);
+		persList.add(p5);
+		
+		
+		try {
+		FileWriter fw=new FileWriter("file.txt");
+		String content=persList;
+				fw.write(content);
+				fw.flush();
+				System.out.println("File written successfully");
+		}catch(IOException e) {
+			System.out.println(e.getMessage());
+			e.printStackTrace();
+		}
+	}	
+}
+
+

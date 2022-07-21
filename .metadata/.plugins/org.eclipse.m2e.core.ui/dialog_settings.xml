@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\bukha\Java Basics\LoggingExample\src\main\resources\log4j2.xml"/>
+			<item value="C:\Users\bukha\Java Basics\MethodChaining\src\main\java\stream\Test.java"/>
+			<item value="C:\Users\bukha\Java Basics\LoggingExample\src\main\java\org\Test.java"/>
+			<item value="C:\Users\bukha\Java Basics\MyMavenApp"/>
+			<item value="C:\Users\bukha\Java Basics\JavaBasics\src\org\Practice.java"/>
+			<item value="C:\Users\bukha\Java Basics\JDBCApp\src\main\java\org\JDBCTest.java"/>
+			<item value="C:\Users\bukha\Java Basics\JDBCApp\src\main\java\test\Application.java"/>
+			<item value="C:\Users\bukha\Java Basics\JunitExample\src\org\TestAsserts.java"/>
+			<item value="C:\Users\bukha\Java Basics\MyFirstMaven\pom.xml"/>
+			<item value="C:\Users\bukha\Java Basics\JunitExample\src\org\TestMain.java"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="com.qa"/>
+			<item value="org.qa"/>
+			<item value="core.qa"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="StrategyPattern"/>
+			<item value="OOPsExample"/>
+			<item value="RecapExercise"/>
+			<item value="FileHandling"/>
+			<item value="MethodChaining"/>
+			<item value="GenericsExample"/>
+			<item value="LogginExample"/>
+			<item value="CollectionExample"/>
+			<item value="LambdaExpressionExample"/>
+			<item value="AdapterExample"/>
+			<item value="ExceptionMavenExample"/>
+			<item value="MyJDBCApp"/>
+			<item value="JDBCApp"/>
+			<item value="MyApplication"/>
+			<item value="MavenApp"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>

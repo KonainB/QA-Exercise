@@ -1,0 +1,26 @@
+package employee;
+
+public class Employee {
+	String firstName;
+	String lastName;
+	int age;
+	String address;
+	int phoneNo;
+	String email;
+	double basicSalary;
+	double bonus;
+	public Employee(String firstName, String lastName, int age, String address, int phoneNo, String email,
+			float basicSalary, float bonus) {
+		super();
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.age = age;
+		this.address = address;
+		this.phoneNo = phoneNo;
+		this.email = email;
+		this.basicSalary = basicSalary;
+		this.bonus = bonus;
+	}
+	
+
+}

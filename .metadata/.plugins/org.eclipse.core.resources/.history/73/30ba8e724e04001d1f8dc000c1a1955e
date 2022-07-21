@@ -1,0 +1,9 @@
+package domain;
+
+public class Test {
+	Registration r=new Registration();
+	r.getDurationOfCooking();
+	r.getDurationOfPhotography();
+	r.getDurationOfJournalism();
+
+}

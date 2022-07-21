@@ -1,0 +1,23 @@
+package employee;
+
+import java.util.Scanner;
+
+public class Test {
+	
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        double basicSalary;
+        double bonus;
+        System.out.println("Enter basic salary:");
+        basicSalary = sc.nextDouble();
+        System.out.println("Enter bonus:");
+        bonus=sc.nextDouble();
+
+        double finalSalary = (((basicSalary*10)/100)+bonus);
+
+        System.out.println("The final salary is:" + finalSalary);
+        		       	
+
+    }
+
+}

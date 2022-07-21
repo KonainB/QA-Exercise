@@ -1,0 +1,23 @@
+package set_org;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class TestSet {
+
+	public static void main(String[] args) {
+		Set fruits=new HashSet();
+		//HashSet fruits=new HashSet();
+		fruits.add("Apple");
+		fruits.add("Orange");
+		fruits.add("Banana");
+		fruits.add("Orange");
+		fruits.add("Pineapple");
+		fruits.add("Grapes");
+		fruits.add("Apple");
+		fruits.add("Fig");
+		System.out.println(fruits);
+
+	}
+
+}
